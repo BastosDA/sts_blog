@@ -1,0 +1,24 @@
+<h1>Créer un nouvel article</h1>
+<form action="/posts" method="POST">
+    <label for="title">Titre :</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    
+    <label for="slug">Slug :</label>
+    <input type="text" id="slug" name="slug" required>
+    <br>
+
+    <label for="content">Contenu :</label>
+    <textarea id="content" name="content" required></textarea>
+    <br>
+    <button type="submit">Publier</button>
+    
+    
+    <label for="author">Auteur :</label>
+    <input type="text" id="author" name="author" required>
+    <br>
+
+    <label for="start">Start date:</label>
+    <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31" required>
+    
+</form>
